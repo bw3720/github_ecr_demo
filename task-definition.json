@@ -1,0 +1,18 @@
+{
+  "family": "ecs-task-def",
+  "containerDefinitions": [
+    {
+      "cpu": 1,
+      "image": "ECR 리포지토리 URI",
+      "memory": 512,
+      "name": "container-test",
+      "portMappings": [
+        {
+          "hostPort": 0,
+          "protocol": "tcp",
+          "containerPort": "80"
+        }
+      ]
+    }
+  ]
+}
